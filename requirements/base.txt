@@ -1,0 +1,23 @@
+django==1.6.8
+django-compressor==1.4
+django-countries==2.1.2
+django-localflavor==1.0
+django-pagination==1.0.7
+django-postal==0.95
+pillow==2.4.0
+south==0.8.4
+django-timelog
+
+django-nose
+django-extensions
+
+
+-e git://github.com/diefenbach/django-lfs.git#egg=lfs
+-e git://github.com/diefenbach/lfs-contact.git#egg=lfs_contact
+-e git://github.com/diefenbach/lfs-criterion-us-states#egg=lfs_cirterion_us_states
+-e git://github.com/diefenbach/lfs-order-numbers.git#egg=lfs_order_numbers
+-e git://github.com/diefenbach/lfs-paypal.git#egg=lfs_paypal
+-e git://github.com/diefenbach/lfs-theme.git#egg=lfs_theme
+-e git://github.com/diefenbach/django-paypal.git#egg=paypal
+-e git://github.com/diefenbach/django-portlets.git#egg=portlets
+-e git://github.com/diefenbach/django-reviews.git#egg=reviews
