@@ -36,17 +36,22 @@ How to use it?
 
     $ python manage.py syncdb
     
-8. Initialize LFS
+8. Migrate your database
+
+    $ python manage.py migrate
+    
+9. Initialize LFS
 
     $ python manage.py lfs_init
 
-9. Start server
+10. Start server
 
     $ python manage.py runserver
     
-10. Browse to LFS
+11. Browse to LFS
 
     http://localhost:8000
+ 
     
 More Information
 ================
