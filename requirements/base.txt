@@ -1,17 +1,33 @@
+# Django
 django==1.6.8
+south==1.0.0
+
+# Configuration
+django-configurations==0.8
+django-cache-url==0.8.0
+dj-database-url==0.3.0
+
+# Images
+pillow==2.6.0
+
+# Static files compressor
 django-compressor==1.4
+
+# Useful things
 django-countries==2.1.2
+django-postal==0.95
 django-localflavor==1.0
 django-pagination==1.0.7
-django-postal==0.95
-pillow==2.4.0
-south==0.8.4
 django-timelog
-
-django-nose
 django-extensions
 
+# Unicode slugification
+unicode-slugify==0.1.1
 
+# Tests
+django-nose
+
+# LFS
 -e git://github.com/diefenbach/django-lfs.git#egg=lfs
 -e git://github.com/diefenbach/lfs-contact.git#egg=lfs_contact
 -e git://github.com/diefenbach/lfs-criterion-us-states#egg=lfs_cirterion_us_states
