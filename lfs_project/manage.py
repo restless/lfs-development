@@ -2,6 +2,7 @@
 import glob
 import os
 import sys
+from os.path import dirname
 
 BASE_DIR = dirname(dirname(__file__))
 
