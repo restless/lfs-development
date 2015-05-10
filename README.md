@@ -32,23 +32,19 @@ How to use it?
 
     $ cd lfs_project
 
-7. Sync your database
-
-    $ python manage.py syncdb
-    
-8. Migrate your database
+7. Migrate your database
 
     $ python manage.py migrate
     
-9. Initialize LFS
+8. Initialize LFS
 
     $ python manage.py lfs_init
 
-10. Start server
+9. Start server
 
     $ python manage.py runserver
     
-11. Browse to LFS
+10. Browse to LFS
 
     http://localhost:8000
  

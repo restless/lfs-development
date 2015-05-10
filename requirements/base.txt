@@ -1,14 +1,12 @@
 # Django
-django==1.6.8
-south==1.0.0
+django==1.8.1
 
 # Configuration
-django-configurations==0.8
-django-cache-url==0.8.0
-dj-database-url==0.3.0
+django-environ==0.3.0
+python-dotenv==0.1.2
 
 # Images
-pillow==2.6.0
+pillow==2.8.1
 
 # Static files compressor
 django-compressor==1.4
@@ -35,5 +33,5 @@ django-nose
 -e git://github.com/diefenbach/lfs-paypal.git#egg=lfs_paypal
 -e git://github.com/diefenbach/lfs-theme.git#egg=lfs_theme
 -e git://github.com/diefenbach/django-paypal.git#egg=paypal
--e git://github.com/diefenbach/django-portlets.git#egg=portlets
+-e git://github.com/diefenbach/django-portlets.git@version/1.2#egg=portlets
 -e git://github.com/diefenbach/django-reviews.git#egg=reviews
