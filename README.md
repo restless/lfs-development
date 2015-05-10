@@ -7,6 +7,13 @@ It will create a complete developement evironment for [LFS](https://github.com/d
 
 LFS is an online shop based on Python, Django and jQuery.
 
+Why should (not) I use it?
+============================
+
+I strongly recommend checking the [LFS cookiecutter template](https://github.com/restless/cookiecutter-django-lfs) as it will generate the project like this one for you. I will also focus on the cookiecutter-django-lfs and not on this project so it will be probably more up to date than this project is.
+
+But if you want then go with this project - it's based on standard pip and its requirements file - not on buildout as lfs-buildout-development does.
+
 How to use it?
 ==============
 
